@@ -1,32 +1,179 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 40px;
-  background-color: #fff;
-  color: #333;
+  background: #f3f0eb;
+  margin: 0;
+  color: #222;
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
+.cv-container {
+  display: flex;
+  max-width: 960px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  box-shadow: 0 0 24px rgba(80,60,60,0.09);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.section-title {
-  font-size: 32px;
+.sidebar {
+  width: 320px;
+  background: #bfa2db;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 24px;
+  box-shadow:
+    0 0 0 10px #ede0fa,
+    0 0 20px 6px #a684d6aa;
+  transition: box-shadow 0.3s;
+}
+
+.name {
+  font-size: 26px;
   font-weight: bold;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.role {
+  font-size: 16px;
+  color: #8446b2;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.sidebar-section {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.sidebar-section h3 {
+  font-size: 18px;
+  color: #6c3483;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d6c1ea;
+  padding-bottom: 4px;
+}
+
+.sidebar-section ul {
+  padding-left: 18px;
+  margin: 0;
+  font-size: 15px;
+}
+
+.sidebar-section li {
+  margin-bottom: 6px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px 36px;
+}
+
+.main-content h2 {
+  font-size: 22px;
+  color: #6c3483;
+  margin-top: 0;
+  margin-bottom: 32px; /* увеличенный отступ под заголовками */
+}
+
+.main-content ul {
+  padding-left: 18px;
+  font-size: 16px;
+}
+
+.main-content pre {
+  background: #f3eafc;
+  border-radius: 5px;
+  padding: 16px;
+  font-size: 15px;
+  overflow-x: auto;
+}
+
+.footer-container {
+  text-align: center;
+  margin: 28px auto 8px auto;
+  font-size: 15px;
+  color: #888;
+}
+
+.footer-container a {
+  color: #6c3483;
+  text-decoration: underline;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-container a:hover {
+  color: #8446b2;
+}
+
+@media (max-width: 900px) {
+  .cv-container {
+    flex-direction: column;
+    max-width: 98vw;
+  }
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 18px;
+  }
+  .main-content {
+    padding: 22px 10px;
+  }
+}
+
+.section.about ul {
+  margin-top: 8px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+/* Стили для контактов с иконками */
+.contacts-list i {
+  font-size: 1.25em;
+  color: #6c3483;
+  width: 22px;
+  text-align: center;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.contacts-list li {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
 }
 
-.section-subtitle {
-  font-size: 24px;
-  color: #6C3483; 
-  margin-bottom: 16px;
+.contacts-list a {
+  color: #6c3483;
+  text-decoration: underline;
+  transition: color 0.3s ease;
 }
 
-.profile-avatar {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-top: 16px;
-  box-shadow: 0 0 16px rgba(108,52,131,0.12);
+.contacts-list a:hover {
+  color: #8446b2;
+}
+
+.contact-link {
+  color: #6c3483;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #8446b2;
+  text-decoration: none;
 }
