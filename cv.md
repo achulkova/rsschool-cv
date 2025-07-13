@@ -14,7 +14,7 @@ Motivated Junior Developer with a strong interest in both frontend and backend.
 - Actively developing hard and soft skills, team colladoration, and leadership potential
 ## Skills and Proficiency
 - JavaScript, basic HTML & CSS
-- Git, GitHub
+- Git, GitHub (branching, pull requests)
 - VS Code
 - Windows OS
 ## Code Example
