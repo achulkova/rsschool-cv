@@ -1,1 +1,1 @@
-# rsschool-cv
+[Моё резюме](https://achulkova.github.io/rsschool-cv/cv)
