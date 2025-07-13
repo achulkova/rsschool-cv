@@ -1,1 +1,1 @@
-[Моё резюме](https://achulkova.github.io/rsschool-cv/cv)
+[Моё резюме](https://achulkova.github.io/rsschool-cv/)
