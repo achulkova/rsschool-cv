@@ -1,7 +1,7 @@
 # ANNA CHULKOVA
 ### Junior Frontend Developer
 ## Contact Information
-- **Phone:** +46 00 000 00 00
+- **Phone:** +46 01 010 10 01
 - **E-mail:** [achulkova89@gmail.com](mailto:achulkova89@gmail.com)
 - **GitHub:** [achulkova](https://github.com/achulkova)
 - **Discord:** Anna Chulkova (@achulkova) (rs-school)
