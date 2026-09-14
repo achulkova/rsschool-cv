@@ -36,6 +36,9 @@ body {
 }
 
 .nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: var(--dark-brown);
 }
 
@@ -105,6 +108,7 @@ main {
 
 section {
   margin-bottom: 34px;
+  scroll-margin-top: 70px;
 }
 
 section:last-child {
