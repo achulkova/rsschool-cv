@@ -51,6 +51,18 @@ I am interested in backend development and enjoy building practical applications
 - JWT
 - OAuth 2.0
 
+## Code Example
+
+Example solution to a Codewars task written in Java:
+
+```java
+public class Kata {
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+}
+```
+
 ## Projects
 
 ### BankLite — Full-Stack Banking Application
