@@ -7,8 +7,190 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>Anna Chulkova</h1>
-  </main>
+  <div class="page-container">
+    <header class="header">
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#english">English</a></li>
+        </ul>
+      </nav>
+
+      <div class="profile">
+        <img
+          class="profile-photo"
+          src="assets/profile.jpg"
+          alt="Portrait of Anna Chulkova"
+        >
+
+        <div>
+          <h1>Anna Chulkova</h1>
+          <p class="subtitle">Agile Java Developer Student</p>
+          <p>Katrineholm, Sweden</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="contacts">
+        <h2>Contact Information</h2>
+
+        <ul>
+          <li>Email: <a href="mailto:achulkova89@gmail.com">achulkova89@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/achulkova">github.com/achulkova</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/anna-chulkova">Anna Chulkova</a></li>
+          <li>Discord: Anna Chulkova (@achulkova)</li>
+        </ul>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+          I am an Agile Java Developer student at Edugrade (Yrkeshögskola),
+          focused on backend development with Java and Spring Boot.
+        </p>
+
+        <p>
+          I am interested in backend development and enjoy building practical
+          applications and learning new technologies. My current goal is to
+          strengthen my software development skills, gain professional
+          experience, and grow as a Java developer.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+
+        <ul class="skills-list">
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>REST APIs</li>
+          <li>Spring Security</li>
+          <li>JPA / Hibernate</li>
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>H2</li>
+          <li>Flyway</li>
+          <li>JUnit</li>
+          <li>Mockito</li>
+          <li>Swagger / OpenAPI</li>
+          <li>Git / GitHub</li>
+          <li>Docker</li>
+          <li>Docker Compose</li>
+          <li>Maven</li>
+          <li>GitHub Actions</li>
+          <li>CI/CD</li>
+          <li>JWT</li>
+          <li>OAuth 2.0</li>
+        </ul>
+      </section>
+
+      <section id="code">
+        <h2>Code Example</h2>
+
+        <p>Example solution to a Codewars task written in Java:</p>
+
+        <pre><code>public class Kata {
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+}</code></pre>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+          <h3>BankLite — Full-Stack Banking Application</h3>
+
+          <p>
+            A full-stack banking application developed with Spring Boot,
+            MySQL, and a web frontend.
+          </p>
+
+          <ul>
+            <li>Implemented JWT-based authentication and authorization using Spring Security.</li>
+            <li>Containerized the application using Docker and Docker Compose.</li>
+            <li>Configured a CI/CD pipeline with GitHub Actions.</li>
+            <li>Deployed the application to Railway.</li>
+          </ul>
+
+          <p>
+            <a href="https://github.com/achulkova/banklite">GitHub Repository</a>
+          </p>
+        </article>
+
+        <article>
+          <h3>Gym Class Booking API</h3>
+
+          <p>
+            A secure REST API for managing gym classes, users, and bookings.
+          </p>
+
+          <ul>
+            <li>Implemented JWT authentication and role-based authorization.</li>
+            <li>Added input validation, booking rules, and class capacity management.</li>
+            <li>Used layered architecture with controllers, services, repositories, DTOs, and JPA entities.</li>
+            <li>Added automated tests using JUnit and Mockito.</li>
+            <li>Documented the REST API using Swagger / OpenAPI.</li>
+          </ul>
+
+          <p>
+            <a href="https://github.com/achulkova/gym-class-booking">GitHub Repository</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+
+        <article>
+          <h3>Agile Java Developer</h3>
+          <p><strong>Edugrade — Yrkeshögskola, Sweden</strong></p>
+          <p>2025 — Present</p>
+          <p>Expected graduation: June 2027</p>
+        </article>
+
+        <article>
+          <h3>Master's Degree in Law</h3>
+          <p><strong>Moscow New Law Institute, Russia</strong></p>
+          <p>Graduated: 2012</p>
+        </article>
+      </section>
+
+      <section id="english">
+        <h2>English</h2>
+
+        <p><strong>C1 — Advanced</strong></p>
+
+        <p>
+          I have more than 10 years of experience using English professionally
+          as an English teacher, working with individual students and groups.
+          I have also prepared students for Cambridge English examinations.
+        </p>
+
+        <p>Cambridge C1 Advanced (CAE), 2021</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/achulkova">GitHub</a>
+
+      <span>2026</span>
+
+      <a href="https://rs.school/">
+        <img
+          class="rs-logo"
+          src="assets/rs-school-logo.svg"
+          alt="RS School logo"
+        >
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
